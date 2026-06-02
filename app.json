@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "COPENGUIDEN",
+    "slug": "COPENGUIDEN",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/4050051.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/4050051.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3B5C8E"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/4050051.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "GOOGLEEXPO_PUBLIC_API_KEY"
+      }
+    },
+      "edgeToEdgeEnabled": true,
+      "package": "com.gghln.COPENGUIDEN"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "469a2d7a-5161-4b35-9df8-71ca7e050e32"
+      }
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
